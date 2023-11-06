@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Rajdhani';
+    src: url(../assets/fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell';
+    src: url(../assets/fonts/Cantarell-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Advent';
+  src: url(../assets/fonts/AdventPro-Bold.ttf);
+}
+
+
+
+// colors //
+
+$color-yellow: #f1c530;
+$color-blue: rgb(7, 51, 140);
+$color-red: #b11313;
+$color-black: #000;
+$color-black-alt: rgb(33, 46, 62);
+$color-gray: #7c7675;
+$color-white: #fff;
+$color-gradient-00: #19587d;
+$color-gradient-11: #193c7d;
+$color-gradient-22: rgb(180, 32, 46);
+
+// popupbox//
+
+.popupbox{
+    background: linear-gradient(
+    143deg,
+    rgba(33, 46, 62, 1),
+    rgba(180, 32, 46, 1) 80%);
+    width: 100%;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    .inside{
+        padding: 50px;
+        margin: 30px;
+        background-color: $color-blue;
+        border-radius: 20px;
+        box-shadow: 2px 2px 40px black;
+        .h1{
+            text-transform: uppercase;
+        }
+    }
+    display: none;
+}
+
+// supprimer toutes les marges//
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+%titre{
+  font-family:'rajdhani';
+  font-size: 36px;
+  font-weight:bold;
+}
+
+body{
+    font-family: 'Cantarell' !important;
+    color: white !important;
+    background-color: black !important; 
+}
+
+
+button{
+    padding: 10px;
+    color: white;
+    border: none;
+    background: rgb(198, 198,198);
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(
+      70deg,
+      rgba(7, 51, 140, 0.4) 40%,
+      rgba(180, 32, 46, 0.4) 60%
+    );
+    box-shadow: black 5px 5px 60px;
+    margin-left: 20px;
+    &:hover {
+      background: linear-gradient(
+        80deg,
+        rgba(7, 51, 140, 1) 40%,
+        rgba(180, 32, 46, 1) 60%
+      );
+      text-shadow: 2px 2px 3px black;
+    }
+    
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .btn {
+    font-family: 'rajdhani';
+    font-size: 20px;
+    color: white;
+    padding: 10px 50px;
+  
+    text-decoration: none;
+    display: inline-block;
+    background-color: blue;
+    box-shadow: black 5px 5px 60px;
+    margin-left: 20px;
+    &:hover {
+      background-color: blue;
+      text-shadow: 2px 2px 3px black;
+    }
+  }
+  
+  .brand:hover,
+  .hoveryellow:hover {
+    filter: invert(18%) sepia(82%) saturate(4658%) hue-rotate(355deg)
+      brightness(109%) contrast(112%);
+  }

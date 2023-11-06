@@ -1,0 +1,14 @@
+.scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 100px;
+    top: 400px;
+    img {
+      margin-top: 40px;
+    }
+    .social {
+      width: 90%;
+    }
+  }

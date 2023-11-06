@@ -1,0 +1,21 @@
+.hero-image {
+    background-image: url(../assets/images/img19.png);
+    height: 900px;
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .formulaire{
+    background: linear-gradient(0.25turn, rgb(25, 88, 125) 75%,rgb(177, 19, 19)25%);
+    max-width: 60%;
+    padding: 40px;
+    margin-top: -45%;
+    border-radius: 10px;
+    .form {
+      background-color: rgba(122, 122, 122, 0.848);
+      padding: 15px;
+      border-radius: 10px;
+    }
+  }

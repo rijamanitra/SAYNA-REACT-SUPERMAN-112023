@@ -1,0 +1,25 @@
+.nav-link {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.5rem;
+}
+
+nav img {
+  height: 100px;
+  width: 100px;
+}
+
+.active {
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: underline;
+  color: white !important;
+}
+
+nav {
+  height: 132px;
+  background-color: black !important;
+}
+nav .navbar-toggler {
+  background-color: white !important;
+}/*# sourceMappingURL=NavBar.css.map */
